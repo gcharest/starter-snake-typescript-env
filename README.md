@@ -1,24 +1,12 @@
-# Battlesnake TypeScript Starter Project
+# Battlesnake TypeScript Starter Project Devcontainer
 
-An official Battlesnake template written in TypeScript. Get started at [play.battlesnake.com](https://play.battlesnake.com).
-
-![Battlesnake Logo](https://media.battlesnake.com/social/StarterSnakeGitHubRepos_TypeScript.png)
-
-This project is a great starting point for anyone wanting to program their first Battlesnake in TypeScript. It can be run locally or easily deployed to a cloud provider of your choosing. See the [Battlesnake API Docs](https://docs.battlesnake.com/api) for more detail. 
-
-[![Run on Replit](https://repl.it/badge/github/BattlesnakeOfficial/starter-snake-typescript)](https://replit.com/@Battlesnake/starter-snake-typescript)
+**_A devcontainer template adaptated from the [official Battlesnake starter template](https://github.com/BattlesnakeOfficial/starter-snake-typescript) written in Typescript, including the installation of the Battlesnake CLI and setup to test performance locally._**
 
 ## Technologies Used
 
 This project uses [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), and [Express](https://expressjs.com/). It also comes with an optional [Dockerfile](https://docs.docker.com/engine/reference/builder/) to help with deployment.
 
 ## Run Your Battlesnake
-
-Install dependencies using npm
-
-```sh
-npm install
-```
 
 Start your Battlesnake
 
@@ -48,6 +36,13 @@ Command to run a local game
 
 ```sh
 battlesnake play -W 11 -H 11 --name 'TypeScript Starter Project' --url http://localhost:8000 -g solo --browser
+```
+
+## Test your Battlesnake Performance
+
+Command to execute the performance test locally:
+```sh
+npm run battlesnake
 ```
 
 ## Next Steps
